@@ -1,0 +1,33 @@
+{
+  "name": "fest",
+  "version": "1.0.0",
+  "description": "RKMVERI fest",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "dev" : "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/grussdorian/fest"
+  },
+  "keywords": [
+    "rkmveri",
+    "fest",
+    "mongodb"
+  ],
+  "author": "Hardik Ghoshal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3",
+    "node-fetch": "^3.2.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
